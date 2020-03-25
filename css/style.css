@@ -1,0 +1,89 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+
+/* #main{
+    background-image: url("https://i.pinimg.com/originals/b7/a6/d9/b7a6d9eec99b49eed0bbbcfa72039c3d.jpg");
+    
+} */
+
+#title{
+    font-size: 60px;
+    font-family: roboto;
+    text-align: center;
+    color:#837B7B;
+}
+
+@media only screen and (max-width: 600px) {
+    #title{
+        font-size:40px;
+    }
+  }
+
+#main{
+    font-size: 20px;
+    font-family: Roboto Condensed;
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfq-EqepWAnNu6PtkKNQMWikotn_E85UXbj2Yh2aTC2ffB7uJi");
+    background-repeat: no-repeat; 
+}
+
+@media only screen and (max-width: 600px) {
+    #main{
+        font-size:20px;
+    }
+  }
+
+
+.sub{
+    margin-left: 10%;
+    margin-right: 10%;;
+}
+
+img{
+    max-width: 70%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+#img-caption{
+    font-size: 18px;
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: justify;
+    }   
+
+
+#tribute-info{
+    padding-top: 2%;;
+    padding-bottom: 2%;
+    text-align: left;
+    /* margin-top:5%; */
+    background-image: url("https://wallpaperaccess.com/full/1620590.jpg");
+    background-repeat: no-repeat;
+    color:white;
+    margin: 5% -1% 0% -1%;
+    background-size: cover;
+}
+
+
+.tribute-space{
+    margin-left: 3%;;
+}
+
+#tribute-link{
+    color:white;
+}
+
+/* a:link{
+    text-decoration: none;
+} */
+  
+
+
