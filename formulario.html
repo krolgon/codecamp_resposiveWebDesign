@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Formulário</title>
+</head>
+
+<body id="main">
+  <h1 id="title">Cadastro Rápido</h1>
+  <p id="description">Através dessas informações será possível traçar a personalidade dos fãns!</p>
+  <form id="survey-form">
+    <label class="label-name" id="name-label">Nome</label>
+    <input class="form-campo" type="text" required="required" id="name" placeholder="Informe seu nome" />
+    <br />
+    <label class="label-name" id="email-label">E-mail</label>
+    <input class="form-campo" type="email" required="required" id="email" placeholder="Informe seu E-mail" />
+    <br />
+    <label class="label-name" id="number-label">Idade</label>
+    <input class="form-campo" type="number" required="required" id="number" min=0 max=100
+      placeholder="Informe sua idade" />
+    <br />
+    <div>
+    <!-- <label id="atuacao-label">Como você conheceu seu trabalho?</label><br />
+    <select id="dropdown" class="form-campo">
+      <option disabled selected value>Selecione uma opção:</option>
+      <option value="shows">Shows</option>
+      <option value="filmes">Filmes</option>
+      <option value="composicoes">Composições</option>
+    </select> -->
+  </div>
+    <br />
+    <legend>Informe seu sexo:</legend><br />
+    <input id="homem" type="radio" name="items" value="homem">
+    <label for="homem">Homem</label><br>
+    <input id="mulher" type="radio" name="items" value="mulher">
+    <label for="mulher">Mulher</label><br>
+    <input id="outro" type="radio" name="items" value="outro">
+    <label for="outro">Outro</label> <br />
+    <br />
+    <label id="musicas-label">Informe as músicas que você mais gosta:</label><br />
+    <input type="checkbox" name="musica" value="Heroes">
+    <label for="musica"> Heroes</label><br>
+    <input type="checkbox" name="musica" value="Starman">
+    <label for="musica">Starman</label><br>
+    <input type="checkbox" name="musica" value="Space Oddity">
+    <label for="musica"> Space Oddity</label><br><br/>
+    <textarea id="text" name="text" cols="60" rows="5">Dicas ou sugestões informe aqui... </textarea>
+    <br /><br/>
+    <button id="submit" type="submit">Enviar</button>
+  </form>
+</body>
+
+</html>
